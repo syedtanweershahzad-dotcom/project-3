@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapricornFlow Yoga | Find Your Inner Peace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ॐ CapricornFlow<br><small>Find Your Inner Peace</small></div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to CapricornFlow Yoga</h1>
+            <p>Find your inner peace and strength through the ancient practice of yoga. Join our community and embark on a journey of wellness and mindfulness.</p>
+            <a href="#classes" class="btn">Explore Classes</a>
+        </div>
+    </section>
+
+    <section class="classes" id="classes">
+        <h2>Discover Inner Peace Through Yoga</h2>
+        <div class="flex-container">
+            <div class="card">
+                <h3>Vinyasa Flow</h3>
+                <p>Improve flexibility and strength with fluid movements.</p>
+                <div>
+                    <img src="/images/images (15).jpg" alt="">
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Hatha Yoga</h3>
+                <p>Focus on foundational poses and deep breathing.</p>
+                <div>
+                    <img src="/images/images (16).jpg" alt="">
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Meditation</h3>
+                <p>Clear your mind and find your inner stillness.</p>
+                <div>
+                    <img src="/images/images (17).jpg" alt="">
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CapricornFlow Yoga Studio</p>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
